@@ -1,39 +1,6 @@
 <html>
   <head>
-    <style>
-    * {
-      box-sizing: border-box;
-    }
-      table, body {
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
-        font-size: 16px;
-      }
-      th {
-        text-align: left;
-        font-size: 18px;
-      }
-      @media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}
-      .container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-      }
-      table {
-        border-spacing: 0;
-        border-collapse: collapse;
-      }
-      tr.even {
-        background-color: #F7F7F7;
-      }
-      .required {
-        color: red;
-      }
-      .title {
-        
-        font-weight: bold;
-      }
-    </style>
+   
   </head>
   <body>
     <div class="container">
