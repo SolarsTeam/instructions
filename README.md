@@ -4,10 +4,6 @@
   <body>
     <div class="container">
       <table>
-        <colgroup>
-          <col width="22%" />
-          <col width="78%" />
-        </colgroup>
         <thead>
           <tr>
             <th>Тэг</th>
@@ -16,7 +12,7 @@
         </thead>
         <tbody>
           <tr>
-            <td class="required">**Connection**</td>
+            <td class="required">Connection</td>
             <td><span class="title">[Подключение](#)</span><br />
               Информация о подключении к базе данных. Имеет 4 обязательных внутренних тэга:
               <ul>
