@@ -17,7 +17,7 @@
         <tbody>
           <tr>
             <td class="required">Connection</td>
-            <td><span class="title">Подключение</span></span><br />
+            <td><span class="title"><a>Подключение</a></span><br />
               Информация о подключении к базе данных. Имеет 4 обязательных внутренних тэга:
               <ul>
                 <li>Server - сервер базы данных</li>
@@ -29,7 +29,7 @@
           </tr>
           <tr class="even">
             <td class="required">OurOrgnId</td>
-            <td><span class="title">Идентификатор "Нашей организации"</span><br />
+            <td><span class="title"><a>Идентификатор "Нашей организации"</a></span><br />
             Идентификатор организации, которая помечена как "Наша"</td>
           </tr>
           <tr>
