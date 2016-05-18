@@ -60,7 +60,7 @@
             В тэге содержится набор тэгов "Id", которые указывают на категории товаров для которых можно задать штрих-код при работе с заказом</td>
           </tr>
           <tr class="even">
-            <td>_IsPersonIdentificationRequiredForDiscountOperations_</td>
+            <td>_IsPersonIdentification RequiredForDiscountOperations_</td>
             <td><span class="title">[Требование авторазиции для работы с ручными скидками](#)</span><br />
             Принимает значения:
               <ul>
@@ -70,7 +70,7 @@
             </td>
           </tr>
           <tr>
-            <td>_IsPersonIdentificationRequiredForAPLOperations_</td>
+            <td>_IsPersonIdentification RequiredForAPLOperations_</td>
             <td><span class="title">[Требование авторазиции для работы с альтернативными прайслистами](#)</span><br />
             Принимает значения:
               <ul>
@@ -116,7 +116,7 @@
             В тэге содержится набор тэгов "Id", которые и являются группами товаров</td>
           </tr>
           <tr>
-            <td>_KeepOpenSelectGoodsWindowForGoodsGroups_</td>
+            <td>_KeepOpenSelectGoods WindowForGoodsGroups_</td>
             <td><span class="title">[Группы товаров, при выборе из которых оставлять окно выбора позиций меню открытым](#)</span><br />
             В тэге содержится набор тэгов "Id", которые и являются группами товаров</td>
           </tr>
@@ -207,7 +207,7 @@
             </td>
           </tr>
           <tr class="even">
-            <td>_RequirePersonIdentificationForKassOperations_</td>
+            <td>_RequirePersonIdentification ForKassOperations_</td>
             <td><span class="title">[Требовать персонализацию для кассовых операций](#)</span><br />
             Сканирование карточки клиента, номер которой введен в коле "Код" в личных делах персонала (true - возможность активирована, false - деактивирована)</td>
           </tr>
