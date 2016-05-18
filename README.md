@@ -16,8 +16,8 @@
         </thead>
         <tbody>
           <tr>
-            <td class="required">Connection</td>
-            <td><span class="title"><a>Подключение</a></span><br />
+            <td class="required">**Connection**</td>
+            <td><span class="title">[Подключение](#)</span><br />
               Информация о подключении к базе данных. Имеет 4 обязательных внутренних тэга:
               <ul>
                 <li>Server - сервер базы данных</li>
@@ -29,27 +29,27 @@
           </tr>
           <tr class="even">
             <td class="required">OurOrgnId</td>
-            <td><span class="title"><a>Идентификатор "Нашей организации"</a></span><br />
+            <td><span class="title">[<a>Идентификатор "Нашей организации"</a>](#)</span><br />
             Идентификатор организации, которая помечена как "Наша"</td>
           </tr>
           <tr>
             <td class="required">UserId</td>
-            <td><span class="title">Идентификатор пользователя</span><br />
+            <td><span class="title">[Идентификатор пользователя](#)</span><br />
             Идентификатор пользователя от имени котоого будет выполняться запуск системы</td>
           </tr>
           <tr class="even">
             <td class="required">StoreGroupId</td>
-            <td><span class="title">Группа складов</span><br />
+            <td><span class="title">[Группа складов](#)</span><br />
             Идентификатор группы складов</td>
           </tr>
           <tr>
             <td>StoreForLoadedDocumentsId</td>
-            <td><span class="title">Идентификатор склада для импорта накладных</span><br />
+            <td><span class="title">[Идентификатор склада для импорта накладных](#)</span><br />
             Идентификатор склада, в который будут оприходованы позиции из накладной</td>
           </tr>
           <tr class="even">
             <td>ImageTextSource</td>
-            <td><span class="title">Источник текста над картинкой</span><br />
+            <td><span class="title">[Источник текста над картинкой](#)</span><br />
             Источник, из которого будет браться текст для вывода над картинкой товара в меню, задается как число и может иметь значения:
               <ul>
                 <li>0 - Наименование товара</li>
@@ -60,12 +60,12 @@
           </tr>
           <tr>
             <td>AllowSNForGoodsCategories</td>
-            <td><span class="title">Разрешение серийных номеров для категорий товаров</span><br />
+            <td><span class="title">[Разрешение серийных номеров для категорий товаров](#)</span><br />
             В тэге содержится набор тэгов "Id", которые указывают на категории товаров для которых можно задать штрих-код при работе с заказом</td>
           </tr>
           <tr class="even">
             <td>IsPersonIdentificationRequiredForDiscountOperations</td>
-            <td><span class="title">Требование авторазиции для работы с ручными скидками</span><br />
+            <td><span class="title">[Требование авторазиции для работы с ручными скидками](#)</span><br />
             Принимает значения:
               <ul>
                 <li>true - необходима авторизация менеджера</li>
@@ -75,7 +75,7 @@
           </tr>
           <tr>
             <td>IsPersonIdentificationRequiredForAPLOperations</td>
-            <td><span class="title">Требование авторазиции для работы с альтернативными прайслистами</span><br />
+            <td><span class="title">[Требование авторазиции для работы с альтернативными прайслистами](#)</span><br />
             Принимает значения:
               <ul>
                 <li>true - необходима авторизация менеджера</li>
@@ -85,12 +85,12 @@
           </tr>
           <tr class="even">
             <td>GoodsCategories</td>
-            <td><span class="title">Разрешение скидок для категорий товаров</span><br />
+            <td><span class="title">[Разрешение скидок для категорий товаров](#)</span><br />
             В тэге содержится набор тэгов "Id", которые указывают на категории товаров для которых можно задать ручную скидку</td>
           </tr>
           <tr>
             <td>IsAllGoodsManualDiscountAllowed</td>
-            <td><span class="title">Разрешения скидки для всех товаров в заказе</span><br />
+            <td><span class="title">[Разрешения скидки для всех товаров в заказе](#)</span><br />
             Принимает значения:
               <ul>
                 <li>true - в скидках появитс кнопка "Все товары в заказе"</li>
@@ -100,12 +100,12 @@
           </tr>
           <tr class="even">
             <td>ClientCardFormats</td>
-            <td><span class="title">Форматы карточек клиентов</span><br />
+            <td><span class="title">[Форматы карточек клиентов](#)</span><br />
             В тэге содержится набор тэгов "Format", которые содержат форматы карточек клиентов, например: "636F6665000=52657374407274=NNNNNNNNNN", "211NNNNNNNNNN"</td>
           </tr>
           <tr>
             <td>WeightBarcodeFormat</td>
-            <td><span class="title">Формат весовых штрих-кодов</span><br />
+            <td><span class="title">[Формат весовых штрих-кодов](#)</span><br />
             !Занчение задается не внутри тэга, а в атрибуте "RegexFormat", и представляет собой регулярное выражение, которое имеет группы:
               <ul>
                 <li>weight - вес</li>
@@ -116,17 +116,17 @@
           </tr>
           <tr class="even">
             <td>TaraGoodsGroups</td>
-            <td><span class="title">Группы товаров определяющие тарру</span><br />
+            <td><span class="title">[Группы товаров определяющие тарру](#)</span><br />
             В тэге содержится набор тэгов "Id", которые и являются группами товаров</td>
           </tr>
           <tr>
             <td>KeepOpenSelectGoodsWindowForGoodsGroups</td>
-            <td><span class="title">Группы товаров, при выборе из которых оставлять окно выбора позиций меню открытым</span><br />
+            <td><span class="title">[Группы товаров, при выборе из которых оставлять окно выбора позиций меню открытым](#)</span><br />
             В тэге содержится набор тэгов "Id", которые и являются группами товаров</td>
           </tr>
           <tr class="even">
             <td>AlternativePriceLists</td>
-            <td><span class="title">Доступные альтернативные прайслисты</span><br />
+            <td><span class="title">[Доступные альтернативные прайслисты](#)</span><br />
             В тэге содержится набор тэгов "Price", внутри которых находятся тэги:
               <ul>
                 <li>Id - идентификатор прайслиста (таблица PriceList)</li>
@@ -136,22 +136,22 @@
           </tr>
           <tr>
             <td>KassId</td>
-            <td><span class="title">Идентификатор кассы</span><br />
+            <td><span class="title">[Идентификатор кассы](#)</span><br />
             Идентификатор кассы с которой будут производиться все операции</td>
           </tr>
           <tr class="even">
             <td>KassInpOperations</td>
-            <td><span class="title">Операции прихода в кассу</span><br />
+            <td><span class="title">[Операции прихода в кассу](#)</span><br />
             В тэге содержится набор тэгов "Id", которые соответствуют идентификаторам операций из таблицы AcoprLst</td>
           </tr>
           <tr>
             <td>KassOutOperations</td>
-            <td><span class="title">Операции расхода из кассы</span><br />
+            <td><span class="title">[Операции расхода из кассы](#)</span><br />
             В тэге содержится набор тэгов "Id", которые соответствуют идентификаторам операций из таблицы AcoprLst</td>
           </tr>
           <tr class="even">
             <td>IsClosingKassDayActive</td>
-            <td><span class="title">Закрытие кассового дня</span><br />
+            <td><span class="title">[Закрытие кассового дня](#)</span><br />
             Активация закрытия кассового дня, принимает значения:
               <ul>
                 <li>true - активировано</li>
@@ -174,7 +174,7 @@
           </tr>
           <tr>
             <td>PaymentTypes</td>
-            <td><span class="title">Типы оплат</span><br />
+            <td><span class="title">[Типы оплат](#)</span><br />
             Активные типы оплат, может содержать следующие тэги:
               <ul>
                 <li>PaymentTypeId - идентификатор типа оплаты (таблица CsDtKtHb)</li>
@@ -212,41 +212,41 @@
           </tr>
           <tr class="even">
             <td>RequirePersonIdentificationForKassOperations</td>
-            <td><span class="title">Требовать персонализацию для кассовых операций</span><br />
+            <td><span class="title">[Требовать персонализацию для кассовых операций](#)</span><br />
             Сканирование карточки клиента, номер которой введен в коле "Код" в личных делах персонала (true - возможность активирована, false - деактивирована)</td>
           </tr>
           <tr>
             <td>UseBonusSystem</td>
-            <td><span class="title">Исользовать бонусную систему</span><br />
+            <td><span class="title">[Исользовать бонусную систему](#)</span><br />
             Использование бонусных систем (true - возможность активна, false - деактивна), имеет атрибут "IsBonusMoneyUsingActive" - использование бонус денег (true - возможность активна, false - деактивна),
               обратите внимание, что для активации использования бонус-денег также необходимо активировать и использование бонусов вообще
             </td>
           </tr>
           <tr class="even">
             <td>AllowCuttingForBonuses</td>
-            <td><span class="title">Разрешить снятие бонусов</span><br />
+            <td><span class="title">[Разрешить снятие бонусов](#)</span><br />
             В тэге содержится набор тэгов "Id", которые опеределяют идентификаторы бонусов (таблица DK_Bns), для которых разрешено снятие бонусов, конечно же при наличии полседних на карточке клиента</td>
           </tr>
           <tr>
             <td>AllowExchangeForBonuses</td>
-            <td><span class="title">Разрешить размен бонусов</span><br />
+            <td><span class="title">[Разрешить размен бонусов](#)</span><br />
             В тэге содержится набор тэгов "Id", которые опеределяют идентификаторы бонусов (таблица DK_Bns), для которых разрешен размен на другие бонусы, возможные варианты размена определяются по совпадению поля "Type"
               и курсу по полю "Val" (в случае бонус-денег курс оперделяется с помощью поля "CurrTypId") в таблице DK_Bns
             </td>
           </tr>
           <tr class="even">
             <td>GiftCertificates</td>
-            <td><span class="title">Подарочные сертивикаты</span><br />
+            <td><span class="title">[Подарочные сертивикаты](#)</span><br />
             В тэге содержится набор тэгов "Id", которые опеределяют идентификаторы товаров из меню, которые будут считаться подарочными сертификатами, стоит заметить, что эти товары исчезнут из меню (таблица Goods)</td>
           </tr>
           <tr>
             <td>AllowInventoryOnlyAfterTime</td>
-            <td><span class="title">Разрешать инвентаризацию только после определенного времени</span><br />
+            <td><span class="title">[Разрешать инвентаризацию только после определенного времени](#)</span><br />
             Строковое значение в формате "hh:mm"</td>
           </tr>
           <tr class="even">
             <td>FiscalPrinterInfo</td>
-            <td><span class="title">Информация о фискально принтере</span><br />
+            <td><span class="title">[Информация о фискально принтере](#)</span><br />
             Внутри имеются тэги:
               <ul>
                 <li>IsActive - активация возможности (true - активирована, false - деактивирована)</li>
@@ -265,7 +265,7 @@
           </tr>
           <tr>
             <td>Providers</td>
-            <td><span class="title">Информация о поставщиках</span><br />
+            <td><span class="title">[Информация о поставщиках](#)</span><br />
             Внутри имеются тэги:
               <ul>
                 <li>OKPO - идентификация поставщика производится по заданному ОКПО (таблица Orgn)</li>
@@ -276,22 +276,22 @@
           </tr>
           <tr class="even">
             <td>ProductionGoods</td>
-            <td><span class="title">Производственные товары</span><br />
+            <td><span class="title">[Производственные товары](#)</span><br />
             В тэге содержится набор тэгов "Id", которые опеределяют идентификаторы товаров, при выборе из меню которых програмное обеспечение попросит выбрать сырье для приготовления</td>
           </tr>
           <tr>
             <td>CheckPrinterName</td>
-            <td><span class="title">Наименование чекового принтера в системе</span><br />
+            <td><span class="title">[Наименование чекового принтера в системе](#)</span><br />
             Если задано значение - в окне оплат появится кнопка печати чека по заказу, печать будет производится на принтер с указанным именем</td>
           </tr>
           <tr class="even">
             <td>IsClientSearchAllowed</td>
-            <td><span class="title">Разрешение поиска клиентов по имени</span><br />
+            <td><span class="title">[Разрешение поиска клиентов по имени](#)</span><br />
             Значения: true - поиск разрешен, false - поиск запрещен</td>
           </tr>
           <tr>
             <td>ClientSearchByPhone</td>
-            <td><span class="title">Поиск клиентов по их телефону</span><br />
+            <td><span class="title">[Поиск клиентов по их телефону](#)</span><br />
             Информация для поиска и подтверждения клиентов по их телефону. Содержит атрибуты:
               <ul>
                 <li>IsAllowed - активация (true - активировано, false - деактивировано)</li>
@@ -303,7 +303,7 @@
           </tr>
           <tr class="even">
             <td>PreventClientGroupAddEdit</td>
-            <td><span class="title">Запрещение на редактирование групп организаций клиентов</span><br />
+            <td><span class="title">[Запрещение на редактирование групп организаций клиентов](#)</span><br />
             Содержит атрибуты:
               <ul>
                 <li>IsActive - активация (true - запрет активен, false - запрет неактивен)</li>
