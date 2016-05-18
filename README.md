@@ -6,13 +6,13 @@
       <table>
         <thead>
           <tr>
-            <th width="25%">Тэг</th>
+            <th>Тэг</th>
             <th>Название / Описание</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="required">Connection</td>
+            <td class="required">_Connection_</td>
             <td><span class="title">[Подключение](#)</span><br />
               Информация о подключении к базе данных. Имеет 4 обязательных внутренних тэга:
               <ul>
