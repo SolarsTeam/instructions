@@ -6,7 +6,7 @@
       <table>
         <thead>
           <tr>
-            <th>Тэг</th>
+            <th width="25%">Тэг</th>
             <th>Название / Описание</th>
           </tr>
         </thead>
